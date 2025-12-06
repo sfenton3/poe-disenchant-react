@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className=""> Hello world! </div>
+      <div className=''> Hello world! </div>
     </>
   )
 }
