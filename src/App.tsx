@@ -30,18 +30,19 @@ function App() {
 
   // Container: Defines the grid's theme & dimensions.
   return (
-    <div className='p-8'>
-      <button
-        onClick={filterAmount}
-        className="mb-4 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
-        Dust Range
-      </button>
-      <button
-        onClick={reset}
-        className="mb-4 ml-2 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
-        Reset
-      </button>
-      <div className='ag-theme-quartz mx-auto h-200 w-450'>
+    <div className='flex flex-col'>
+      <div className="flex flex-row">
+        <button
+          onClick={filterAmount}
+          className=" px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
+          Dust Range
+        </button>
+        <button
+          onClick={reset}
+          className="ml-2 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
+          Reset
+        </button></div>
+      <div className='ag-theme-quartz mx-auto w-full' style={{ height: '600px' }}>
         <AgGridReact
           rowData={rowData}
           columnDefs={colDefs}
@@ -51,7 +52,5 @@ function App() {
     </div>
   );
 };
-
-
 
 export default App
