@@ -5,14 +5,14 @@ import { Slider } from "radix-ui";
 
 function App() {
   // Column Definitions: Defines & controls grid columns.
-  const [colDefs, setColDefs] = useState([
-    { field: "Name" },
-    { field: "Price" },
-    { field: "Dust Value" },
-    { field: "Dust / Chaos" },
-    { field: "Dust / Chaos / Slot" },
-    { field: "Gold Fee" },
-    { field: "Trade Link" },
+  const [colDefs] = useState([
+    { field: "Name" as const },
+    { field: "Price" as const },
+    { field: "Dust Value" as const },
+    { field: "Dust / Chaos" as const },
+    { field: "Dust / Chaos / Slot" as const },
+    { field: "Gold Fee" as const },
+    { field: "Trade Link" as const },
   ]);
 
   const [rowData, setRowData] = useState(mockData);
