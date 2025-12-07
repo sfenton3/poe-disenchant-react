@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { AgGridReact } from "ag-grid-react";
-import mockData from "./data/mockData.json";
 import { Slider } from "radix-ui";
+
+import mockData from "./data/mockData.json";
 
 function App() {
   // Column Definitions: Defines & controls grid columns.
@@ -43,7 +44,12 @@ function App() {
   return (
     <div className='flex flex-col gap-4'>
 
-      { /** Toolbar */}
+      { /* Header */}
+      <div className="flex flex-row mx-auto text-3xl font-bold mt-5">
+        PoE Item Dust Value Analyzer
+      </div>
+
+      { /* Toolbar */}
       <div className="flex flex-row gap-2 mx-auto w-[80%] mt-5">
         <div className="  border-2">
           <Slider.Root className="relative flex items-center select-none touch-none w-[200px] h-5" defaultValue={[minValue]} max={maxValue} step={(maxValue - minValue) / 100} value={sliderValue} onValueChange={filterAmount} aria-label="Volume">
