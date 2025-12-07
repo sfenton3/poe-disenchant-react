@@ -88,5 +88,185 @@
     "Dust / Chaos / Slot": 30,
     "Gold Fee": 250,
     "Trade Link": "https://trade.poe.com/item10"
+  },
+  {
+    "Name": "Voidforge Sword",
+    "Price": 150,
+    "Dust Value": 2400,
+    "Dust / Chaos": 16,
+    "Dust / Chaos / Slot": 2.67,
+    "Gold Fee": 500,
+    "Trade Link": "https://www.pathofexile.com/trade/search/Settlers/Voidforge"
+  },
+  {
+    "Name": "Starforge Maul",
+    "Price": 200,
+    "Dust Value": 2800,
+    "Dust / Chaos": 14,
+    "Dust / Chaos / Slot": 2.33,
+    "Gold Fee": 600,
+    "Trade Link": "https://trade.poe.com/item2"
+  },
+  {
+    "Name": "Inpulsa's Broken Heart",
+    "Price": 100,
+    "Dust Value": 3200,
+    "Dust / Chaos": 32,
+    "Dust / Chaos / Slot": 5.33,
+    "Gold Fee": 400,
+    "Trade Link": "https://trade.poe.com/item3"
+  },
+  {
+    "Name": "Kaom's Heart",
+    "Price": 80,
+    "Dust Value": 2600,
+    "Dust / Chaos": 32.5,
+    "Dust / Chaos / Slot": 5.42,
+    "Gold Fee": 350,
+    "Trade Link": "https://trade.poe.com/item4"
+  },
+  {
+    "Name": "Shav's Wrappings",
+    "Price": 120,
+    "Dust Value": 3400,
+    "Dust / Chaos": 28.33,
+    "Dust / Chaos / Slot": 4.72,
+    "Gold Fee": 450,
+    "Trade Link": "https://trade.poe.com/item5"
+  },
+  {
+    "Name": "Headhunter Belt",
+    "Price": 500,
+    "Dust Value": 4800,
+    "Dust / Chaos": 9.6,
+    "Dust / Chaos / Slot": 9.6,
+    "Gold Fee": 1200,
+    "Trade Link": "https://trade.poe.com/item6"
+  },
+  {
+    "Name": "Mageblood Belt",
+    "Price": 800,
+    "Dust Value": 5200,
+    "Dust / Chaos": 6.5,
+    "Dust / Chaos / Slot": 6.5,
+    "Gold Fee": 1800,
+    "Trade Link": "https://trade.poe.com/item7"
+  },
+  {
+    "Name": "The Eternity Shroud",
+    "Price": 90,
+    "Dust Value": 2900,
+    "Dust / Chaos": 32.22,
+    "Dust / Chaos / Slot": 5.37,
+    "Gold Fee": 380,
+    "Trade Link": "https://trade.poe.com/item8"
+  },
+  {
+    "Name": "Atziri's Reflection",
+    "Price": 250,
+    "Dust Value": 3600,
+    "Dust / Chaos": 14.4,
+    "Dust / Chaos / Slot": 14.4,
+    "Gold Fee": 700,
+    "Trade Link": "https://trade.poe.com/item9"
+  },
+  {
+    "Name": "Astramentis Amulet",
+    "Price": 60,
+    "Dust Value": 1800,
+    "Dust / Chaos": 30,
+    "Dust / Chaos / Slot": 30,
+    "Gold Fee": 250,
+    "Trade Link": "https://trade.poe.com/item10"
+  },
+  {
+    "Name": "Voidforge Sword",
+    "Price": 150,
+    "Dust Value": 2400,
+    "Dust / Chaos": 16,
+    "Dust / Chaos / Slot": 2.67,
+    "Gold Fee": 500,
+    "Trade Link": "https://www.pathofexile.com/trade/search/Settlers/Voidforge"
+  },
+  {
+    "Name": "Starforge Maul",
+    "Price": 200,
+    "Dust Value": 2800,
+    "Dust / Chaos": 14,
+    "Dust / Chaos / Slot": 2.33,
+    "Gold Fee": 600,
+    "Trade Link": "https://trade.poe.com/item2"
+  },
+  {
+    "Name": "Inpulsa's Broken Heart",
+    "Price": 100,
+    "Dust Value": 3200,
+    "Dust / Chaos": 32,
+    "Dust / Chaos / Slot": 5.33,
+    "Gold Fee": 400,
+    "Trade Link": "https://trade.poe.com/item3"
+  },
+  {
+    "Name": "Kaom's Heart",
+    "Price": 80,
+    "Dust Value": 2600,
+    "Dust / Chaos": 32.5,
+    "Dust / Chaos / Slot": 5.42,
+    "Gold Fee": 350,
+    "Trade Link": "https://trade.poe.com/item4"
+  },
+  {
+    "Name": "Shav's Wrappings",
+    "Price": 120,
+    "Dust Value": 3400,
+    "Dust / Chaos": 28.33,
+    "Dust / Chaos / Slot": 4.72,
+    "Gold Fee": 450,
+    "Trade Link": "https://trade.poe.com/item5"
+  },
+  {
+    "Name": "Headhunter Belt",
+    "Price": 500,
+    "Dust Value": 4800,
+    "Dust / Chaos": 9.6,
+    "Dust / Chaos / Slot": 9.6,
+    "Gold Fee": 1200,
+    "Trade Link": "https://trade.poe.com/item6"
+  },
+  {
+    "Name": "Mageblood Belt",
+    "Price": 800,
+    "Dust Value": 5200,
+    "Dust / Chaos": 6.5,
+    "Dust / Chaos / Slot": 6.5,
+    "Gold Fee": 1800,
+    "Trade Link": "https://trade.poe.com/item7"
+  },
+  {
+    "Name": "The Eternity Shroud",
+    "Price": 90,
+    "Dust Value": 2900,
+    "Dust / Chaos": 32.22,
+    "Dust / Chaos / Slot": 5.37,
+    "Gold Fee": 380,
+    "Trade Link": "https://trade.poe.com/item8"
+  },
+  {
+    "Name": "Atziri's Reflection",
+    "Price": 250,
+    "Dust Value": 3600,
+    "Dust / Chaos": 14.4,
+    "Dust / Chaos / Slot": 14.4,
+    "Gold Fee": 700,
+    "Trade Link": "https://trade.poe.com/item9"
+  },
+  {
+    "Name": "Astramentis Amulet",
+    "Price": 60,
+    "Dust Value": 1800,
+    "Dust / Chaos": 30,
+    "Dust / Chaos / Slot": 30,
+    "Gold Fee": 250,
+    "Trade Link": "https://trade.poe.com/item10"
   }
 ]
