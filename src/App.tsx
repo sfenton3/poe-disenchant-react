@@ -31,6 +31,7 @@ function App() {
   // Container: Defines the grid's theme & dimensions.
   return (
     <div className='flex flex-col gap-4'>
+
       { /** Toolbar */}
       <div className="flex flex-row gap-2 mx-auto w-[80%] mt-5">
         <button
@@ -43,6 +44,7 @@ function App() {
           className="p-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
           Reset
         </button></div>
+
       { /** Table */}
       <div className='mx-auto w-[80vw] h-[80vh]'>
         <AgGridReact
