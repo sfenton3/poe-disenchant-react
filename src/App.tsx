@@ -18,12 +18,12 @@ function App() {
   const [rowData, setRowData] = useState(mockData);
   // Add state for slider value
 
-  let dustValues = mockData.map(item => item["Dust Value"]);
-  const [minValue] = useState(Math.min(...dustValues));
-  const [maxValue] = useState(Math.max(...dustValues));
+  const dustValues = mockData.map(item => item["Dust Value"]);
+  const minValue = Math.min(...dustValues);
+  const maxValue = Math.max(...dustValues);
   const [sliderValue, setSliderValue] = useState([minValue]);
 
-  const filterAmount = (value) => {
+  const filterAmount = (value: number[]) => {
     setSliderValue(value);
     setRowData(mockData.filter((item) => item["Dust Value"] >= value[0]));
   };
@@ -46,7 +46,7 @@ function App() {
       { /** Toolbar */}
       <div className="flex flex-row gap-2 mx-auto w-[80%] mt-5">
         <div className="  border-2">
-          <Slider.Root className="relative flex items-center select-none touch-none w-[200px] h-5" defaultValue={[minValue]} max={[maxValue]} step={(maxValue - minValue) / 100} value={sliderValue} onValueChange={filterAmount} aria-label="Volume">
+          <Slider.Root className="relative flex items-center select-none touch-none w-[200px] h-5" defaultValue={[minValue]} max={maxValue} step={(maxValue - minValue) / 100} value={sliderValue} onValueChange={filterAmount} aria-label="Volume">
             <Slider.Track className="bg-black/30 relative flex-grow rounded-full h-[3px]">
               <Slider.Range className="absolute bg-blue-500 rounded-full h-full" />
             </Slider.Track>
@@ -63,7 +63,6 @@ function App() {
           className="p-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
           Reset
         </button>
-
       </div>
 
       { /** Table */}
