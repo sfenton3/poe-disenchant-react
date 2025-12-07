@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { AgGridReact } from "ag-grid-react";
 import { Slider } from "radix-ui";
+import { Button } from '@mui/material';
+
 
 import mockData from "./data/mockData.json";
 
@@ -13,7 +15,7 @@ function App() {
     { field: "Dust / Chaos" as const },
     { field: "Dust / Chaos / Slot" as const },
     { field: "Gold Fee" as const },
-    { field: "Trade Link" as const },
+    { field: "Trade Link" as const }
   ]);
 
   const [rowData, setRowData] = useState(mockData);
@@ -38,8 +40,6 @@ function App() {
     flex: 1,
   };
 
-  console.log(Slider);
-
   // Container: Defines the grid's theme & dimensions.
   return (
     <div className='flex flex-col gap-4'>
@@ -59,11 +59,16 @@ function App() {
             <Slider.Thumb className="block w-5 h-5 bg-white shadow-lg rounded-full border-2 border-blue-500 hover:bg-purple-200 focus:outline-none focus:shadow-[0_0_0_5px_rgba(0,0,0,0.2)]" aria-label="Volume" />
           </Slider.Root>
         </div>
+
         {/* <button
           onClick={filterAmount}
           className="p-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
           Dust Range
         </button> */}
+
+        <Button variant="contained">Text</Button>
+
+
         <button
           onClick={reset}
           className="p-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
@@ -77,10 +82,9 @@ function App() {
           rowData={rowData}
           columnDefs={colDefs}
           defaultColDef={defaultColDef}
-        //suppressVerticalScroll={true}
-        // domLayout='autoHeight'
         />
       </div>
+
     </div>
   );
 };
