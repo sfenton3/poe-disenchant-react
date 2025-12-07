@@ -30,23 +30,27 @@ function App() {
 
   // Container: Defines the grid's theme & dimensions.
   return (
-    <div className='flex flex-col'>
-      <div className="flex flex-row">
+    <div className='flex flex-col gap-4'>
+      { /** Toolbar */}
+      <div className="flex flex-row gap-2 mx-auto w-[80%] mt-5">
         <button
           onClick={filterAmount}
-          className=" px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
+          className="p-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
           Dust Range
         </button>
         <button
           onClick={reset}
-          className="ml-2 px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
+          className="p-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 active:bg-blue-800 transition-colors shadow-md">
           Reset
         </button></div>
-      <div className='ag-theme-quartz mx-auto w-full' style={{ height: '600px' }}>
+      { /** Table */}
+      <div className='mx-auto w-[80vw] h-[80vh]'>
         <AgGridReact
           rowData={rowData}
           columnDefs={colDefs}
           defaultColDef={defaultColDef}
+        //suppressVerticalScroll={true}
+        // domLayout='autoHeight'
         />
       </div>
     </div>
